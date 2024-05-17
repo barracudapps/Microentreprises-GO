@@ -1,0 +1,19 @@
+@media (max-width: $breakpoint-sm) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .header, .footer {
+        padding: 0.5rem 0;
+    }
+
+    .main-content {
+        padding: 1rem 0;
+    }
+
+    button {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}

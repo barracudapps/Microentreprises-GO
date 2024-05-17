@@ -1,0 +1,58 @@
+button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba($primary-color, 0.5);
+    }
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#language-selector {
+    margin-top: 1rem;
+
+    select {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+}
+
+.dropzone {
+    border: 2px dashed $primary-color;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    background-color: lighten($background-color, 5%);
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &.dragover {
+        background-color: lighten($primary-color, 40%);
+    }
+
+    p {
+        margin-bottom: 1rem;
+        color: $primary-color;
+        font-size: 1.2rem;
+    }
+
+    input[type="file"] {
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: $breakpoint-sm) {
+        max-width: 540px;
+    }
+    @media (min-width: $breakpoint-md) {
+        max-width: 720px;
+    }
+    @media (min-width: $breakpoint-lg) {
+        max-width: 960px;
+    }
+    @media (min-width: $breakpoint-xl) {
+        max-width: 1140px;
+    }
+}
+
+.header, .footer {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.main-content {
+    padding: 2rem 0;
+}
