@@ -1,0 +1,4 @@
+*.DS_Store
+*.local
+/frontend/assets/styles/*.css
+/frontend/assets/styles/*.map
