@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:og='http://ogp.me/ns#' lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title id='title'>Microentreprise Helper</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Micro-entreprise Tool</h1>
+        <div id="language-selector">
+            <label for="language">Choose language:</label>
+            <select id="language" onchange="setLanguage()">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <section class="upload-section">
+            <div id="dropzone" class="dropzone">
+                <p>Glissez-déposez votre fichier Excel ici ou cliquez pour le sélectionner</p>
+                <input type="file" id="fileInput" accept=".xlsx">
+            </div>
+        </section>
+    </main>
+
+    <div id="output"></div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Micro-entreprise Tool</p>
+    </footer>
+</body>
+
+</html>
